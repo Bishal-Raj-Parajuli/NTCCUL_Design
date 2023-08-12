@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/Assets/NTCCUL-Logo.ico" type="image/x-icon" />
+    <title>NTCCUL</title>
+    <link rel="stylesheet" href="assets/lib/bootstrap5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="assets/lib/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="assets/lib/AOS/AOS.css" />
+  </head>
+  <body>
+    <!-- Nav Bar -->
+
+    <div class="Nav__Wrapper mb-2 px-4 py-1 d-flex fixed-top">
+      <div data-aos="fade-right" class="d-flex align-items-center mr-auto">
+        <div>
+          <img src="Assets/Image/Logo.png" width="80" alt="Logo" />
+        </div>
+        <div>
+          <img src="Assets/Image/title.png" width="300" alt="Logo Title" />
+        </div>
+      </div>
+      <div data-aos="fade-left" class="Nav__RightSec">
+        info@ntccul.com.np
+        <div class="d-flex justify-content-center SocialMedia__Icon">
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-messenger"></i>
+          <i class="bi bi-whatsapp"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu Bar -->
+    <nav class="Menu__Bar navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-list text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <div data-aos="fade-right" data-aos-delay="500" class="py-2">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide Carousel__Wrapper"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/Assets/Image/CoverImage.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/Assets/Image/CoverImage.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/Assets/Image/CoverImage.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- About Us -->
+    <div
+      class="d-flex align-items-center bg-grey justify-content-between AboutUs__Wrapper"
+    >
+      <div class="AboutUs__Text" data-aos="zoom-out-up">
+        <h3 class="">About Us</h3>
+        <hr class="HR__Style" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          malesuada fringilla interdum. Nullam ante purus, posuere ut molestie
+          id, fringilla luctus tellus. Cras nibh nisl, viverra in faucibus et,
+          facilisis id elit. Nulla facilisi. Nullam vehicula sapien efficitur,
+          commodo felis vel, cursus sem. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nunc nisi ante, posuere bibendum quam eget, semper
+          feugiat mauris. Suspendisse sollicitudin ex sapien, commodo
+          sollicitudin nisi vulputate in. Vivamus leo velit, rutrum quis
+          sagittis at, accumsan quis mauris. Etiam tempor maximus erat vitae
+          tempor. Suspendisse eget finibus turpis. Donec elit nibh, vehicula
+          pretium aliquam ut, ultrices cursus augue. Praesent id ligula eu enim
+          venenatis tempor. Cras in enim est. Donec bibendum ex eu ante feugiat
+          vehicula vel eget est. Morbi in eros dui.
+        </p>
+        <a class="btn btn-primary">Read More</a>
+      </div>
+      <div class="AboutUs__Img" data-aos="zoom-out-up">
+        <img src="/Assets/Image/AboutUs.jpg" height="360" />
+      </div>
+    </div>
+
+    <!-- What We Do -->
+    <div class="WhatWeDo__Wrapper">
+      <div style="width: 100%" class="text-center">
+        <h3>What We Do?</h3>
+        <hr class="HR__Style" />
+      </div>
+
+      <div class="row w-100 justify-content-center">
+        <div class="card lg-col-4 sm-col-12 md-col-6" data-aos="flip-right">
+          <div class="card__image">
+            <img src="/Assets/Image/AboutUs.jpg" style="object-fit: cover" />
+          </div>
+          <div class="card__content">
+            <p class="card__title">Card Title</p>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="card lg-col-4 sm-col-12 md-col-6" data-aos="flip-left">
+          <div class="card__image">
+            <img src="/Assets/Image/CoverImage.jpg" style="object-fit: cover" />
+          </div>
+          <div class="card__content">
+            <p class="card__title">Card Title</p>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="card lg-col-4 sm-col-12 md-col-6" data-aos="flip-right">
+          <div class="card__image">
+            <img src="/Assets/Image/AboutUs.jpg" style="object-fit: cover" />
+          </div>
+          <div class="card__content">
+            <p class="card__title">Card Title</p>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="card lg-col-4 sm-col-12 md-col-6" data-aos="flip-left">
+          <div class="card__image">
+            <img src="/Assets/Image/AboutUs.jpg" style="object-fit: cover" />
+          </div>
+          <div class="card__content">
+            <p class="card__title">Card Title</p>
+            <p class="card__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- News & Activities -->
+    <div class="News__Wrapper">
+      <div style="width: 100%" class="text-center">
+        <h3>News & Activities</h3>
+        <hr class="HR__Style" />
+      </div>
+      <div class="NewsCard__Wrapper" data-aos="flip-up">
+        <div class="News__Main">
+          <a href="/">
+            <img
+              src="/Assets/Image/CoverImage.jpg"
+              width="100%"
+              height="400px"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </a>
+        </div>
+
+        <div class="News__List">
+          <div class="News__Card">
+            <img src="Assets/Image/AboutUs.jpg" width="100px" height="80px" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="News__Card">
+            <img src="Assets/Image/AboutUs.jpg" width="100px" height="80px" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="News__Card">
+            <img src="Assets/Image/AboutUs.jpg" width="100px" height="80px" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="News__Card">
+            <img src="Assets/Image/AboutUs.jpg" width="100px" height="80px" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="News__Card">
+            <img src="Assets/Image/AboutUs.jpg" width="100px" height="80px" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="News__Card">
+            <img src="Assets/Image/AboutUs.jpg" width="100px" height="80px" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="News__Card">
+            <img src="Assets/Image/AboutUs.jpg" width="100px" height="80px" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div style="width: 90%" class="d-flex justify-content-end">
+        <a class="btn btn-primary">Show More</a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mx-0 px-4">
+      <footer
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top"
+      >
+        <div class="col mb-3">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+          >
+            <div class="text-center">
+              <img
+                class="logo-img"
+                src="Assets/Image/Logo.png"
+                height="74"
+                width="74"
+              />
+              <img
+                class="logo-title"
+                src="Assets/Image/title-white.png"
+                height="58"
+              />
+            </div>
+          </a>
+        </div>
+
+        <div class="col mb-3"></div>
+        <div class="col mb-3"></div>
+
+        <div class="col mb-3 text-white">
+          <h5>Contact Us</h5>
+          <p class="m-0">Shankamul, Kathamndu</p>
+          <p class="m-0">+977 - 01-0123456, 9812345678</p>
+          <p class="m-0">info@ntccul.com.np</p>
+          <div class="social-icons text-white">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-messenger"></i>
+            <i class="bi bi-whatsapp"></i>
+          </div>
+        </div>
+
+        <div class="col mb-3">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="aboutus" class="nav-link p-0 text-body-secondary"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="services" class="nav-link p-0 text-body-secondary"
+                >services</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="news" class="nav-link p-0 text-body-secondary"
+                >News & Activities</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="contact" class="nav-link p-0 text-body-secondary"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <div class="modal fade show bg-orverlay" style="display: block;">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-4">Notice Title</h1>
+            <button type="button" class="btn-close btn-modal-close" ></button>
+          </div>
+          <div class="modal-body">
+            <img src="./Assets/Image/Notice.jpeg" width="100%" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <script src="/Assets/lib/jquery.js"></script>
+    <script src="/Assets/js/script.js"></script>
+    <script src="/Assets/lib/bootstrap5/js/bootstrap.bundle.min.js"></script>
+    <script src="/Assets/lib/parallax/parallax.min.js"></script>
+    <script src="/Assets/lib/AOS/AOS.js"></script>
+    <script>
+      AOS.init({
+        delay: 250, // values from 0 to 3000, with step 50ms
+        duration: 500, // values from 0 to 3000, with step 50ms
+      });
+
+      $(function () {
+        $(".btn-modal-close").on("click", function () {
+          var parentModal = $(this).closest(".modal");
+          parentModal.removeClass("show");
+          parentModal.removeClass("bg-overlay");
+          parentModal.hide();
+        });
+      });
+    </script>
+
+  </body>
+</html>

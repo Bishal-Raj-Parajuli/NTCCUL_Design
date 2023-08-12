@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Carter+One&family=Kaushan+Script&family=Poppins:wght@600&family=Raleway:wght@400;500&display=swap');
+
+:root {
+    --primary: #379547;
+    --secondary: #45bd59;
+    --primary-shade: #45bd59;
+    /* --primary-shade: #3D53F4; */
+    --gray: #e9e9e9;
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px; 
+    font-weight: 500;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+img{
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.bg-orverlay{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-primary {
+    color: white;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary);
+}
+
+.bg-grey {
+    background-color: var(--gray) !important;
+}
+
+.btn-primary {
+    background: linear-gradient(60deg, var(--primary-shade) 0%,var(--primary) 100%);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover{
+    background-color: var(--primary) !important;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+}
+
+
+
+.Nav__Wrapper{
+    background-color: white !important;
+    justify-content: space-between;
+    border-bottom: var(--primary-shade) 3px solid;
+}
+
+.Nav__RightSec {
+    color: var(--primary);
+}
+
+.SocialMedia__Icon i{
+    
+    margin: 0 0.1rem;
+}
+
+.Menu__Bar{
+    background: linear-gradient(to bottom,var(--primary) 0%,var(--primary-shade) 100%);
+    margin-top: 6.9rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item{
+    margin: 0px 10px;
+    
+}
+
+.nav-link{
+    font-weight: bold;
+    color: white !important;
+}
+
+.AboutUs__Wrapper{
+    flex-direction: row !important;
+    padding: 50px;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.AboutUs__Wrapper p{
+    text-align: justify;
+}
+
+.AboutUs__Text{
+    margin: 0px 50px;
+}
+
+.AboutUs__Img img {
+    object-fit: cover;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.WhatWeDoCard__Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr.HR__Style {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, var(--primary-shade), var(--primary), var(--primary-shade));
+}
+
+.WhatWeDo__Wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .card__image img {
+    margin-top: 10px;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card__content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .card__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card__text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+
+  .card:hover{
+    transform: scale(2) ;
+  }
+  
+  .News__Wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--gray);
+    border-radius: 40px 40px 0px 0px;
+  }
+
+  .News__Main img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+
+.News__Main{
+ width: 100%;
+ height: 400px;
+ padding: 10px;
+}
+
+  .News__List{
+    padding: 0px 10px;
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+  }
+  
+  .News__Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    
+  }
+
+  .News__Main p{
+    padding: 5px 10px;
+  }
+
+  .News__Card p{
+    padding: 0px 10px;
+  }
+
+  .NewsCard__Wrapper{
+    display: flex;
+    justify-content: center;
+    /* border: 10px solid var(--primary); */
+    margin: 10px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .footer {
+    background-color: var(--primary);
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .NewsCard__Wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .News__Main img{
+        width: 100%;
+        height: 80%;
+    }
+ }
+
+  
+@media only screen and (max-width: 980px) {  
+    .AboutUs__Wrapper{
+        flex-direction: column !important;
+        padding: 25px;
+    }
+
+    .AboutUs__Text{
+        margin: 10px 10px;
+    }
+
+    .AboutUs__Img img {
+        width: 99%;
+    }
+
+    .News__Main img{
+        width: 100%;
+        height: 500px;
+    }
+
+    .WhatWeDoCard__Wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .NewsCard__Wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        width: 400px;
+    }
+
+    .Nav__Wrapper{
+        justify-content: center;
+    }
+    .Nav__RightSec {
+        display: none !important;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {  
+    .AboutUs__Wrapper{
+        flex-direction: column !important;
+        padding: 25px;
+    }
+
+    .AboutUs__Text{
+        margin: 10px 10px;
+    }
+
+    .AboutUs__Img img {
+        width: 99%;
+    }
+
+    .News__Main img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .NewsCard__Wrapper{
+        margin: 10px 20px;
+    }
+
+    .WhatWeDoCard__Wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .NewsCard__Wrapper{
+        display: flex;
+        flex-direction: column;
+      }
+
+    .card{
+        width: 400px;
+    }
+
+    .Nav__Wrapper{
+        justify-content: center;
+    }
+    .Nav__RightSec {
+        display: none !important;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+    }
+}
